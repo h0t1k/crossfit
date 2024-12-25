@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Title</h1>
+    <button>i am button</button>
+    <a href="/"> i am weblink </a>
+    <ul>
+      <li>element list</li>
+      <li>element list</li>
+      <li>element list</li>
+    </ul>
+
+    <div>Нейтральный блочный тег</div>
+    <span>Нейтральный строчный тег</span>
+
+    <table>
+      <caption>
+        Check
+      </caption>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ALex</td>
+          <td>1994</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>ALex</td>
+          <td collspan="3">1994</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <form>
+      <fieldset>
+        <legend>данные</legend>
+        ...
+      </fieldset>
+      <fieldset>
+        <legend>работа</legend>
+        ...
+      </fieldset>
+      <fieldset>
+        <legend>контакты</legend>
+        ...
+      </fieldset>
+
+      <label for="login">Login:</label>
+
+      <input id="login" name="user-login" type="password" />
+
+      <laber for="review"> ваш отзыв:</laber>
+      <input id="review" name="user-review" value="..." />
+    </form>
+
+    <form>
+      <p>
+        <label for="email">E-mail</label>
+        <input id="email" name="user-email" type="email" />
+      </p>
+      <p>
+        <button type="sumbit">Send</button>
+      </p>
+    </form>
+
+    <form>
+      <p>
+        <label for="user-profile">Сылка на соц проф</label>
+        <input id="user-profile" name="user-profile" type="url" />
+      </p>
+      <p><button type="sumbit">Отправить</button></p>
+    </form>
+    <form>
+      <p>
+        <label for="user-phone">номер телефона:</label>
+        <input id="user-phone" name="user-phone" type="tel" />
+      </p>
+      <p>
+        <button type="sumbit">Отправить</button>
+      </p>
+    </form>
+
+    <form>
+      <p>
+        <label for="search-query">Введите поисковый запрос:</label>
+        <input id="search-query" name="search-query" type="search" />
+      </p>
+      <p>
+        <button type="sumbit">Поиск</button>
+      </p>
+    </form>
+
+    <label for="comment">You comment:</label>
+    <textarea name="user-comment" id="comment"></textarea>
+    <form>
+      <label for="city">you City</label>
+      <select id="city" name="user-city">
+        <option>not use</option>
+        <option value="moscow">Moscow</option>
+        <option value="odessa">Odessa</option>
+        <option value="kharkiv">Kharkiv</option>
+        <option value="amsterdam">Amsterdam</option>
+      </select>
+      <button>Send</button>
+    </form>
+  </body>
+</html>
